@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@300&display=swap'); 
+@import url("https://fonts.google.com/icons?selected=Material%20Icons%20Outlined%3Asettings%3A");
+:root {
+  --orange: #FF6C2D;
+  --army: rgba(20, 83, 100, 1);
+
+  --green:#2FE900;;
+  --facebook: #1877F2;
+  --frame-background: #F6F6F6;
+}
+*{
+  margin: 0px;
+} 
+.link{
+    text-decoration: none;
+    
+    }
+.signUp{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 100%;
+  }
+  .signupLogo{
+    width: 23px;
+    height: 18px;
+    position: relative;
+    margin-top: 16px;
+    margin-right: 2px;
+    border:6px solid #FF6C2D;
+    border-right: none;
+    border-left: none;
+    border-top-left-radius:3px ;  
+    border-top-right-radius:3px;
+    border-bottom-left-radius:3px ;
+    border-bottom-right-radius:3px ;
+    margin-left: -15px;
+
+  }
+  
+  .signupLogo::after{
+    content:"";
+    position: absolute;
+    height: 5px;
+    background-color: #FF6C2D;
+    width:99%;
+    top:33%;
+    border-radius: 40px;
+  }
+
+
+  .loginDetails{
+    margin-top: 64px;
+  }
+  .logoSign{
+    position:absolute;
+    /* width: 450px; */
+    top: 45vh;
+    /* margin-left: 12vw; */
+    display: grid;
+    place-items: center;
+    place-content: center;
+}
+
+    .logonameSiginup{
+        display: flex;
+      letter-spacing: 1.5rem;
+      font-size: 50px;
+      color: aliceblue;
+      margin-left: 10px;
+      font-weight: 100;
+    }
+
+
+
+  .signUp_Details {
+    text-align: left;
+    padding: 10%;
+  }
+.labels{
+  display: flex;
+  font-size: 18px;
+  margin-bottom: -7px;
+  letter-spacing: normal;
+  color:rgb(11, 11, 11);
+}
+ 
+.signUpDetails input{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding-left: 30px;
+    margin-bottom: 22px;
+    height: 50px;
+    margin-top: 10px;
+    width: 80%;
+  }
+  .appName{
+    position: absolute;
+    margin-top: 25%;
+    margin-left: 15%;
+    background-color: var(--frame-background);
+    line-height: 25px; 
+    width: 300px;
+    text-align: center;
+ }
+  .signUp_Details p{
+    font-size: 16px;
+    font-weight: 400;
+  }
+  img{
+    height: 100%;
+  }
+  .logo{
+    opacity: 1; 
+    transition: none; 
+    text-decoration: underline; 
+  }
+
+  .sign_up{
+    width: 92%;
+    margin-left: 10px;
+    margin-bottom: 54px;
+  }
+.signUpDetails input{
+font-size:17px;
+/* height: 30px; */
+}
+.title{
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    font-family:'Figtree';
+    letter-spacing: 20px;
+    color: rgba(174, 174, 174, 1)
+}
+.tag{
+    font-size: 18px;
+    font-weight: 300;
+    font-family:'Figtree';
+    color: white;
+    height: 22;
+    letter-spacing: 10px;
+    width: 370px;
+    text-align: center;
+    background-color: var(--orange);
+}
+.container{
+    margin-right:20px;
+}
+
+.resetTab{
+    width: 100%;
+    height: 100%;
+    display: grid;
+}
+.logoContainer{
+    margin-left: 3%;
+}
+.logotext{
+  color: black;
+  width: 425px;
+  font-size: 30px;
+  display: grid;
+  place-items: center;
+  letter-spacing: .4rem;
+  background-color: var(--frame-background);
+}
+
+.info input{
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  padding-left: 30px;
+  margin-bottom: 32px;
+  margin-top: 20px;
+  font-size: 16px;
+  width: 92%;
+}
+/* checking */
+.imageContainer{
+  height: 100vh;
+}
+
+.signIn_details h3{
+  font-weight: 700px;
+  font-size: 37px;
+  color: var(--orange)
+
+}
+
+
+
+header{
+  text-align: center;
+}
+.logoAbsolute{
+position:absolute;
+top: 50vh;
+margin-left: 20vw;
+width: 312px;
+}
+
+
+
+.loginDetails input{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding-left: 30px;
+    margin-bottom: 22px;
+    font-size: 17px;
+    height: 50px;
+    margin-top: 10px;
+    width: 92%;
+  }
+
+
+
+.loginDetails{
+  margin-top: 64px;
+}
+
+
+.signIn{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  height: 100vh;
+}
+
+button .sign_up {
+  background: #FF6C2D;
+  border: none;
+  height: 40px;
+  width: 359px;
+  font-size: 20px;
+  color: aliceblue;
+  box-shadow: 4.800143241882324px 8.800263404846191px 10.400311470031738px -8.800263404846191px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  margin-top: 23px;
+}
+
+ .sign_in {
+  width: 92%;
+  margin-left: 10px;
+  margin-bottom: 54px;
+}
+.signupOption{
+  text-align: center;
+}
+
+ span{
+  color: var(--orange);
+  font-weight: bold;
+}
+.icon{
+width: 50px;
+height: 50px;
+margin-right: 5px;
+
+}
+ .faceBook{
+ color: #1877F2;
+}
+
