@@ -6,7 +6,6 @@ import {FiHelpCircle} from 'react-icons/fi';
 import {CgArrowsExchangeAlt} from 'react-icons/cg'
 import {Link} from 'react-router-dom';
 import {TiPlus} from 'react-icons/ti';
-import {TbMinusVertical} from 'react-icons/tb'
 import {BsGlobe, BsNewspaper} from 'react-icons/bs'
 import './Rate.css'
 import PropTypes from 'prop-types'
@@ -72,11 +71,9 @@ function Rate(props) { // funtion to display date
                         <details data-popover="down">
                             <summary>Tools</summary>
                             <div>
-                                <p>Currency Converter
-                                </p>
+                                <p>Currency Converter</p>
                                 <p>Historical Currency Rates</p>
-                                <p>Rate Alert
-                                </p>
+                                <p>Rate Alert</p>
                             </div>
                         </details>
 
@@ -118,13 +115,10 @@ function Rate(props) { // funtion to display date
                         EN
                     </div>
                     <div className='sidebar'>
-
-                        {/* <ul>  */}
                         <div className='side'>
                             <FiMenu className='menubtn' id="mySidenav"></FiMenu>
-
                         </div>
-                        {/* </ul> */} </div>
+                    </div>
                 </div>
             </div>
             {/*end of header  */}
@@ -212,13 +206,12 @@ function Rate(props) { // funtion to display date
                     <div className='rateFrom'>
                         <div className='fromHead'>
                             <div className='headCenter'>
-                                <h3>Convert {currency1}
-                                    to {currency2}</h3>
-                                <div className='spacing'>
+                                <h3>Convert {currency1} to {currency2}</h3>     
+                            </div>
+                            <div className='spacing'>
                                     <div className='Holder'>💢 {currency1}</div>
                                     <div className='Holder'>💢 {currency2}</div>
                                 </div>
-                            </div>
                         </div>
                         <div className='fromBody'>
                             <div className='fromHolder'>1 {currency1}</div>
@@ -241,13 +234,13 @@ function Rate(props) { // funtion to display date
                     <div className='rateTo'>
                         <div className='toHead'>
                             <div className='toHeadContainer'>
-                                <h3>Convert {currency2}
-                                    to {currency1}</h3>
-                                <div className='fromBodyHead'>
+                                <h3>Convert {currency2} to {currency1}</h3>
+                               
+                            </div>
+                            <div className='fromBodyHead'>
                                     <div className='Holder'>💢 {currency2}</div>
                                     <div className='Holder'>💢 {currency1}</div>
                                 </div>
-                            </div>
                         </div>
                         <div className='toBody'>
                             <div className='fromHolder'>1 {currency2}</div>
@@ -270,7 +263,7 @@ function Rate(props) { // funtion to display date
                 <div className='label'>
                     <h2>Currency Information</h2>
                 </div>
-                <div className='ratelist'>
+                <div className='ratelist' id='rateinfo'>
                     <div className='rateFrominfo'>
                         <div className='fromBodyinfo'>
                             <div className='title'>
